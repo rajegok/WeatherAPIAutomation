@@ -12,7 +12,8 @@ import io.restassured.RestAssured;
 public class GetWeatherSteps {
     private Response response;
     private final String BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
-    private final String API_KEY = "1a182210edab97e8f27866a07f043b2b";
+   //API key to be passed
+    private final String API_KEY = "";
     
 
     @Given("the weather API is available")
